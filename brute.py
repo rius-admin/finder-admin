@@ -12,12 +12,11 @@ def timebanner(s):
         time.sleep( 0 / 100)
 
 timebanner(" ")
-timebanner("\033[1;1m   ")
-timebanner("     ")
-timebanner("     ")
-timebanner("     ")
-timebanner("     ")
-timebanner("     ")                                                                                                           
+timebanner("\033[1;1m╔═╗╔══╗╔══╗╔╗╔══╗╔═╗╔╦╗╔══╗╔═╗ ")
+timebanner(" ║╔╝║══╣╚╗╔╝║║║╔╗║║╬║║║║╚╗╔╝║╦╝ ")
+timebanner(" ║╚╗╠══║─║║─║║║╔╗║║╗╣║║║─║║─║╩╗ ")
+timebanner(" ╚═╝╚══╝─╚╝─╠╣╚══╝╚╩╝╚═╝─╚╝─╚═╝ ")
+timebanner(" ───────────╚╝───────────────── ")                                                                                                     
 timebanner("                                                                                        |Cyber Sederhana Team|")
 
 timebanner("https://target.co")
