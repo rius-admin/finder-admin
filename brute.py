@@ -3,16 +3,24 @@ import sys , urllib.request , os, time
 
 def timebanner(s):
 
+    for c in s + '\n' :
 
-os.system("clear")
-os.system("figlet CSteam")
-print
-print "Author   : Mr.Rius"
-print "Github   : https://github.com/rius-admin"
-print " "
-print "Ctrl + c = stop"
-print
+        sys.stdout.write(c)
 
+        sys.stdout.flush()
+
+        time.sleep( 0 / 100)
+
+timebanner(" ")
+timebanner("\033[1;1m███████╗███████╗ ██████╗██╗   ██╗██████╗ ██╗████████╗██╗   ██╗      █████╗ ██████╗ ███╗   ███╗██╗███╗   ██╗")
+timebanner("██╔════╝██╔════╝██╔════╝██║   ██║██╔══██╗██║╚══██╔══╝╚██╗ ██╔╝     ██╔══██╗██╔══██╗████╗ ████║██║████╗  ██║")
+timebanner("███████╗█████╗  ██║     ██║   ██║██████╔╝██║   ██║    ╚████╔╝█████╗███████║██║  ██║██╔████╔██║██║██╔██╗ ██║")
+timebanner("╚════██║██╔══╝  ██║     ██║   ██║██╔══██╗██║   ██║     ╚██╔╝ ╚════╝██╔══██║██║  ██║██║╚██╔╝██║██║██║╚██╗██║")
+timebanner("███████║███████╗╚██████╗╚██████╔╝██║  ██║██║   ██║      ██║        ██║  ██║██████╔╝██║ ╚═╝ ██║██║██║ ╚████║")
+timebanner("╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝        ╚═╝  ╚═╝╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝")                                                                                                           
+timebanner("                                                                                        |Cyber Sederhana Team|")
+
+timebanner("https://target.co")
 
 url = input("\nWebsite : ")
 print("")
