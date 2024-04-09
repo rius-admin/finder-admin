@@ -3,13 +3,6 @@ import sys , urllib.request , os, time
 
 def timebanner(s):
 
-    for c in s + '\n' :
-
-        sys.stdout.write(c)
-
-        sys.stdout.flush()
-
-        time.sleep( 0 / 100)
 
 os.system("clear")
 os.system("figlet CSteam")
