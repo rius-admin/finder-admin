@@ -280,7 +280,6 @@ for link2 in link :
 
     except urllib.error.URLError as msg :
 
-        
-        print ("\n\033[33;39mADMIN PAGE NOT FOUND : "+link3)
-               
-  print("------------------------------------------------")
+           print ("\n\033[33;39mADMIN PAGE NOT FOUND : "+link3)
+                
+print("------------------------------------------------")
