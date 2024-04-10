@@ -274,7 +274,9 @@ for link2 in link :
 
         openurl = urllib.request.urlopen(link3)
 
-    
+
+    print("\n\033[1;34m" + "ADMIN PAGE ITS FOUND : "+link3)
+
 
     except urllib.error.URLError as msg :
 
