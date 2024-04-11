@@ -11,18 +11,20 @@ def Space(j):
 		i+=1
 
 print "===================================================================== "
-print "             _                                        "
-print "            | | ___   __ _       ___  ___ __ _ _ __   "
-print "            | |/ _ \ / _` |-----/ __|/ __/ _` | '_  \ "
-print "            | | (_) | (_| |-----\__ \ (_| (_| | | | | "
-print "            |_|\___/ \__, |-----|___/\___\__,_|_| |_| "
-print "                        | | "
-print "                      __/_/  "
+print "                 _                                        "
+print "                | | ___   __ _       ___  ___ __ _ _ __   "
+print "                | |/ _ \ / _` |-----/ __|/ __/ _` | '_  \ "
+print "                | | (_) | (_| |-----\__ \ (_| (_| | | | | "
+print "                |_|\___/ \__, |-----|___/\___\__,_|_| |_| "
+print "                            | | "
+print "                         __/_/  "
 print "		"           
 print "===================================================================== "
 def findAdmin():
 	f = open("target.txt","r");
 	link = raw_input("contoh ; target.co  \n bot-robots(scan) : ")
+	print "   "
+	print "   "
 	print "\n\nBot-robots(scan) : \n"
 	while True:
 		sub_link = f.readline()
