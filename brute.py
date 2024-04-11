@@ -22,7 +22,7 @@ print "		"
 print "===================================================================== "
 def findAdmin():
 	f = open("target.txt","r");
-	link = raw_input("contoh \n target.co: ")
+	link = raw_input("contoh ; target.co  \n bot-robots(scan) : ")
 	print "\n\nBot-robots(scan) : \n"
 	while True:
 		sub_link = f.readline()
