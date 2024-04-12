@@ -25,7 +25,7 @@ def findAdmin():
 	link = raw_input("contoh ; target.co  \n bot-robots(scan) : ")
 	print "   "
 	print "   "
-	print "\n\nBot-robots(scan) : \n"
+	print "\n\nbot-robots(scan) : \n"
 	while True:
 		sub_link = f.readline()
 		if not sub_link:
@@ -39,7 +39,7 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print "Link => ",req_link
+			print "hasil  => ",req_link
 
 def Credit():
 	Space(9); print "  ------------------------"
