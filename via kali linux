@@ -1,0 +1,12 @@
+# sudo su
+# apt update
+# apt upgrade
+# apt install python
+# apt install python2
+# apt install git
+# git clone https://github.com/rius-admin/finder-admin
+# ls
+# cd finder-admin
+# clear
+# ls
+# python2 brute.py
