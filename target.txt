@@ -23,6 +23,9 @@ php/admin
 php/admin.php
 privat.php
 login
+siteman
+siteman.php
+sitelog.php
 login/login
 login/login/login
 login/login/login/login.php
