@@ -1,3 +1,5 @@
+( login finder ini adalah script untuk mencari CMS login dengan mengScan website tersebut ) 
+
 # pkg update && pkg upgrade
 # pkg install python
 # pkg install python2
